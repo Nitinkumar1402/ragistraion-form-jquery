@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jquery task 3</title>
+    <link rel="stylesheet" href="indexx.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="indexx.js"></script>
+
+</head>
+
+<body>
+    <div class="main">
+        <div class="register">
+            <h2 style="text-align: center; color: rgb(243, 240, 52);">Register Here</h2>
+            <form id="register" onsubmit="return validate();">
+                <label>First Name :</label>
+                <input type="text" name="fname" id="fname" placeholder="Enter Your F'Name">
+                <br> &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;
+                <label id="fname_error" class="error"> </label>
+                <br>
+                <label>Last Name :</label>
+                <input type="text" name="lname" id="lname" placeholder="Enter Your L'Name">
+                <br>&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;
+                <label id="lname_error" class="error"> </label>
+                <br>
+                <label>Email  &nbsp; &nbsp; &nbsp; &nbsp;  :</label>
+                <input type="email" name="email" id="email" placeholder="Enter Your Valid Email Address">
+                <br>&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;
+                <label id="email_error" class="error"> </label>
+                <br>
+                <label> Password ::</label>
+                <input type="password" name="password" id="pass" placeholder="Enter Your Valid Password">
+                <br>&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;
+                <label id="password_error" class="error"> </label>
+                <br>
+                <label>Confirm Pa:</label>
+                <input type="password" name="C'password" id="password" placeholder="Enter Your Valid confirm Password">
+                <br>&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;
+                <label id="confirm_password_error" class="error"> </label>
+                <br>
+                <br>
+
+
+                <input type="submit" name="submit" value="Submit" id="submit" />
+
+
+            </form>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
